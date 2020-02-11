@@ -11,7 +11,7 @@ import java.io.Serializable;
  * @author rpradhan
  */
 @Data
-@RedisHash(value = "Inquiry", timeToLive = 3600)
+@RedisHash(value = "Inquiry", timeToLive = 120000)
 public class Inquiry implements Serializable {
 
     @Id
